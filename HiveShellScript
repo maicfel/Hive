@@ -25,5 +25,3 @@ var2,
 var3
 from nomedb.tab2 where vardate = '${hivevar:varhql}';
 
-
-https://www.youtube.com/watch?v=-gLzgEqhbJ4&t=198s

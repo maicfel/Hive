@@ -1,0 +1,11 @@
+
+create database if not exists nomeDB '/conf/bucket/nomeDB.db';
+
+drop table nomeDB.tab1;
+
+create table nomeDB.tab1(
+var1 string comment '',
+var2 int comment '',
+var3 decimal(3,0) comment '')
+comment ''
+partitioned by (var4 string) row format delimited fields terminated by '|' stored as orc;
